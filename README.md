@@ -11,3 +11,4 @@ Then you can run a container containing the new image by writing in the terminal
 ````docker run -e "SENTENCE=Your string to reverse" -e "WEBHOOKURL=Your webhook URL" sentence-reverser ````
 
 Now you should see the string printed out reversed.
+This is a external component meant to be running in a Docker container
