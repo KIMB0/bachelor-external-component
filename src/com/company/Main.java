@@ -11,9 +11,9 @@ public class Main {
     public static HttpURLConnection connection = null;
 
     public static void main(String[] args) throws IOException {
-        String envString = System.getenv("SENTENCE");
+        String envSentence = System.getenv("SENTENCE");
         String envWebhookURL = System.getenv("WEBHOOKURL");
-        String reverseString = reverseString(envString);
+        String reverseString = reverseString(envSentence);
         connection = getConnection(envWebhookURL);
         postRequest(reverseString, connection);
         // write your code here
