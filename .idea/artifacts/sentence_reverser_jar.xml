@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="dnikma:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/dnikma_jar</output-path>
+  <artifact type="jar" name="sentence-reverser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sentence_reverser_jar</output-path>
     <root id="archive" name="dnikma.jar">
       <element id="module-output" name="dnikma" />
     </root>

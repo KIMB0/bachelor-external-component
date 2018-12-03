@@ -1,9 +1,9 @@
 FROM anapsix/alpine-java
 
-RUN mkdir /var/dnikma
+RUN mkdir /var/sentence-reverser
 
-COPY ./out/artifacts/dnikma_jar/dnikma.jar /var/dnikma
+COPY ./out/artifacts/sentence_reverser_jar/sentence-reverser.jar /var/sentence-reverser
 
-WORKDIR /var/dnikma
+WORKDIR /var/sentence-reverser
 
-ENTRYPOINT ["java", "-jar", "dnikma.jar"]
+ENTRYPOINT ["java", "-jar", "sentence-reverser.jar"]
